@@ -5,14 +5,14 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Test Camera</title>
+    <link rel="stylesheet" href="style.css">
   </head>
   <body>
-    <form id="myForm" enctype="multipart/form-data">
-      <video id="video" width="320" height="240" autoplay></video>
-      <button id="captureButton">Capturar foto</button>
-      <canvas id="canvas" width="320" height="240"></canvas>
-      <input type="submit" value="Enviar">
-    </form>    
+    <div id="container">
+      <video id="video" autoplay></video>
+      <div id="captureButton">Capturar foto</div>     
+      <canvas id="canvas"></canvas>
+    </div>
     <script src="index.js"></script>
   </body>
 </html>
